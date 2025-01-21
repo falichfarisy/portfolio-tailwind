@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom class */
+.card {
+    @apply flex-row mt-2 rounded-xl w-72 bg-jendela font-poppins transition duration-300 ease-in-out transform hover:scale-105
+}
+
+.transisi {
+    @apply transition ease-in-out transform delay-100 hover:translate-y-1 hover:bg-primary hover:scale-110 duration-300 rounded-lg px-3 pt-2 pb-2 block text-center text-Text hover:text-cream
+}
+
+.judul-project {
+    @apply text-base font-bold text-Text mb-2
+}
+
+.deskripsi-project {
+    @apply text-sm font-light text-Text
+}
+
+.kategori {
+    @apply bg-purple-900 rounded-xl text-xs text-Text font-semibold p-2 flex shrink
+}
+
+.judul-certificate {
+    @apply my-2 mb-9 text-lg font-bold flex-row justify-center
+}
+
+.hidden {
+    display : none;
+}
+
+#modal {
+    z-index: 0;
+}

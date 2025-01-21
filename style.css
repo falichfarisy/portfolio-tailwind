@@ -1,0 +1,106 @@
+body{
+    background-color: #1A1B25;
+}
+
+.container{
+    display: grid;
+    grid-template-areas:    "header header"
+                            "aside main"
+                            "nav main"
+                            "footer footer";
+    grid-template-columns: 0.8fr 2.5fr;
+    grid-template-rows: 0.5fr 1fr 1.4fr;
+}
+
+header{
+    justify-content: space-between;
+    align-items: center;
+    grid-area: header;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 1rem;
+    font-size: medium;
+    box-sizing: border-box;
+}
+
+.nametag{
+    float:right;
+    font-family: 'Poppins';
+    font-size: 1rem;
+    font-weight: bold;
+    color: #F0F2A6;
+}
+
+.content{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 1.5rem;
+    height: 1rem;
+    font-family: 'Poppins';
+    color: #F0F2A6;
+    font-size: medium;
+    background-color: #822E81;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+aside{
+    grid-area: aside;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 0;
+}
+
+img{
+    width: 240px;
+    height: auto;
+    border-radius: 30px;
+}
+
+.icon{
+    grid-area: nav;
+    justify-content: center;
+    align-items:flex-start;
+    display: flex;
+    gap: 0.5rem;
+}
+
+main{
+    grid-area: main;
+    color: #34252F;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+    padding: 0.5rem;
+    margin-right: 25px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter:blur(10px); 
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+}
+
+main.deskripsi.h2{
+    padding: 0.5rem;
+    font-size: x-large;
+    font-style: bold;
+}
+
+main.deskripsi.p{
+    font-size: large;
+}
+
+footer{
+    grid-area: footer;
+    background-color: #1E1E1E;
+}
+

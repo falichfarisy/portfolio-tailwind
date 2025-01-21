@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style/output.css">
+    <title>Portofolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+</head>
+<body class="bg-third">
+    <div class="font-poppins">
+        <div>
+            <header class="flex justify-between align-middle mx-5 mt-3">
+                <h1 class="text-Text font-semibold text-lg">Muh. Falich Farisy</h1>
+                <div class="flex gap-5 text-lg font-medium rounded-md">
+                    <div class="transisi">
+                        <a href="index.html">Main</a>
+                    </div>
+                    <div class="transisi">
+                        <a href="project.html">Project</a>
+                    </div>
+                    <div class="transisi">
+                        <a href="Education.html">Education</a>
+                    </div>         
+                </div>
+            </header>
+            <!-- 2 window -->
+            <div class="grid grid-cols-2 gap-4 pt-4 px-10">
+                <!-- jendela 1 -->
+                <div class="h-screen border-gray-700 border rounded-lg flex-row bg-jendela justify-center p-4 mb-6 mx-4 font-poppins text-Text">
+                    <h1 class=" font-extrabold text-2xl flex ml-2 justify-center p-2">
+                        Education
+                    </h1>
+                    <!-- edu 1 -->
+                    <div class="border-b-4 rounded-full border-purple-400 mb-4"></div>
+                    <div class="overflow-auto h-[80vh]">
+                        <li class="mb-9 text-lg font-bold mr-3">
+                            SMAN 2 PONOROGO 
+                            <p class="text-sm font-normal my-2 ml-4">
+                                Sebagai lulusan SMAN 2 Ponorogo jurusan MIPA, saya memiliki fondasi yang kuat dalam bidang ilmu pengetahuan alam, termasuk matematika, fisika, kimia, dan biologi. Kurikulum yang saya jalani mendorong kemampuan berpikir analitis, pemecahan masalah, dan penguasaan konsep ilmiah yang relevan dengan perkembangan teknologi dan sains modern.
+                                <ul class="text-sm font-semibold ml-4">
+                                    Saya mengikuti beberapa organisasi dan event yang ada di sekolah seperti:
+                                    <div  class="text-sm font-normal ml-5 pt-2 list-outside list-decimal">
+                                        <li>
+                                            Olimpiade Sains Nasional Tingkat Kabupaten (OSN-K) bidang Informatika tahun 2023
+                                        </li>
+                                        <li>
+                                            Ketua Ekstrakurikuler Pencinta Alam (PALA) 2023-2024
+                                        </li>
+                                        <li>
+                                            Panitia Pramuka Tamu Ambala (PTA) Divisi Kegiatan tahun 2023
+                                        </li>
+                                        <li>
+                                            Panitia Smada Scout Competition (SSC) Divisi Humas tahun 2022
+                                        </li>
+                                        <li>
+                                            Peserta Informatics Olimpiad Universitas Jember tahun 2023
+                                        </li>
+                                    </div>
+                                    
+                                </ul>
+                            </p>
+                            <h6 class="font-semibold text-sm text-teal-500 ml-4 mt-3">2021-2024</h6>
+                        </li>
+                        <!-- edu 2 -->
+                        <li class="my-2 mb-9 text-lg font-bold">
+                            POLITEKNIK NEGERI MADIUN
+                            <p class="text-sm font-normal my-2 ml-4">
+                                Sebagai mahasiswa Politeknik Negeri Madiun jurusan Teknologi Informasi, saya memiliki pemahaman yang mendalam dalam pengembangan teknologi, baik perangkat lunak maupun perangkat keras. Kurikulum yang berbasis praktik membuat saya terampil dalam memecahkan masalah teknis serta mampu mengimplementasikan solusi berbasis teknologi secara efektif.
+                            </p>
+                            <h6 class="font-semibold text-sm text-teal-500 ml-4 mt-3">2024-Present</h6>
+                        </li>
+                    </div>
+                </div>
+
+                <!-- jendela 2 -->
+                <div class="border border-gray-700 rounded-lg flex-row bg-jendela justify-center p-4 mb-6 mx-4 font-poppins text-Text">
+                    <h1 class=" font-extrabold text-2xl flex ml-2 justify-center p-2">
+                        Certificate
+                    </h1>
+                    <div class="border-b-4 rounded-full border-purple-400 mb-4"></div>
+                    <div class="overflow-auto h-[80vh]">
+                            <!-- edu 1 -->
+                        <li class="my-2 mb-9 text-lg font-bold">
+                            Dasar Data Science
+                            <p class="text-sm font-normal my-2 ml-4">
+                                Sertifikat Data Scientist dari Dicoding merupakan pengakuan resmi atas keberhasilan saya dalam menyelesaikan serangkaian pelatihan intensif di bidang data science. Pelatihan ini dirancang untuk membekali saya dengan keterampilan teknis dan analitis yang diperlukan untuk mengolah, menganalisis, dan menginterpretasikan data guna menghasilkan solusi berbasis data yang relevan dan inovatif.
+                            </p>
+                            <!-- foto sertifikat -->
+                            <img src="src/img/sertifikat/Dasar_Data_Science.jpg" onclick="document.getElementById('modal').classList.remove('hidden')" class="w-1/2 m-2 mb-0 transisi"> 
+                            <div id="modal" class="fixed inset-0 flex bg-black bg-opacity-75 items-center justify-center hidden" onclick="this.classList.add('hidden')">
+                                <img src="src/img/sertifikat/Dasar_Data_Science.jpg" alt="Full Image" class="max-w-full max-h-full rounded-lg shadow-lg"/>
+                            </div>
+                            <h6 class="font-light text-sm text-teal-500 ml-4">4 November 2024</h6>
+                        </li>
+                        <!-- edu 2 -->
+                        <li class="my-2 mb-9 text-lg font-bold">
+                            Dasar Structured Query Language (SQL)
+                            <p class="text-sm font-normal my-2 ml-4">
+                                Kelas ini ditujukan untuk individu yang ingin melangkah menjadi seorang data analyst atau data scientist dengan mempelajari bahasa Structured Query Language (SQL).
+                            </p>
+                            <!-- foto sertifikat -->
+                            <img src="src/img/sertifikat/Dasar_MySQL.jpg" onclick="document.getElementById('modal').classList.remove('hidden')" class="w-1/2 m-2 mb-0 transisi"> 
+                            <div id="modal" class="fixed inset-0 flex bg-black bg-opacity-75 items-center justify-center hidden" onclick="this.classList.add('hidden')">
+                                <img src="src/img/sertifikat/Dasar_MySQL.jpg" alt="Full Image" class="max-w-full max-h-full rounded-lg shadow-lg"
+                                onclick="event.stopPropagation()"/>
+                            </div>
+                            <h6 class="font-light text-sm text-teal-500 ml-4">7 November 2024</h6>
+                        </li>
+                        <!-- edu 3 -->
+                        <li class="my-2 mb-9 text-lg font-bold">
+                            Memulai Pemrograman dengan Python
+                            <p class="text-sm font-normal my-2 ml-4">
+                                Kelas ditujukan bagi pemula yang ingin belajar dasar pemrograman Python dengan mengacu pada standar industri.
+                            </p>
+                            <!-- foto sertifikat -->
+                            <img src="src/img/sertifikat/Dasar_Python.jpg" onclick="document.getElementById('modal').classList.remove('hidden')" class="w-1/2 m-2 mb-0 transisi"> 
+                            
+                            <div id="modal" class="fixed inset-0 flex bg-black bg-opacity-75 items-center justify-center hidden" onclick="this.classList.add('hidden')">
+                                <img src="src/img/sertifikat/Dasar_Python.jpg" alt="Full Image" class="max-w-full max-h-full rounded-lg shadow-lg"
+                                onclick="event.stopPropagation()"/>
+                            </div>
+                            <h6 class="font-light text-sm text-teal-500 ml-4">23 Desember 2024</h6>
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
